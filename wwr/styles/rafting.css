@@ -20,7 +20,7 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--secondary-color)
+    color: var(--secondary-color);
 }
 
 header, main, footer {
@@ -44,7 +44,7 @@ nav a {
 }
 
 .socialmedia a {
-    text-decoration: none;;
+    text-decoration: none;
 }
 
 .hero {
