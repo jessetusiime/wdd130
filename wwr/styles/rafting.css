@@ -133,13 +133,6 @@ article {
     margin: 2rem auto
 }
 
-.adventure .history-layout {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-
 .adventure-layout {
     display: flex;
     justify-content: space-between;
