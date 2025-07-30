@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Opensans", sans-serif;
+    font-size: 1.2rem;
+    color: #2f2f2f;
+    background: #f5f5dc;
+}
+
+header {
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5rem;
+    color:indigo;
+    text-align: center;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background-color: #d3d3d3;
+    border-radius: 8px;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid (0 0 0 / 0.2);
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color:indigo;
+}
+
+label, input, button, select, textarea {
+    font-family: "Roboto" sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+} 
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    padding: 0.65rem;
+    color:#f5f5dc;
+    font-size: 1.2rem;
+    background-color:indigo;
+    border: none;
+    border-radius: 5rem;
+}
+
+button:hover {
+    background-color:rgb(93, 137, 218);
+}
+
+footer {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-top: 1px solid #ccc;
+    width: 600px;
+    text-align: center;
+    font-size: 0.9rem;
+    color:black;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem;
+}
