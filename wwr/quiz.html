@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+<header>
+    <h1>Simple HTML and CSS Quiz</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>HTML Questions</legend>
+            <label for="q1">1. What is HTML in full?</label>
+            <input type="text" id="q1" name="question1"><br>
+            <label for="q2">2. Differentiate between inline and block elements</label>
+            <textarea id="q2" name="q2" rows="3"></textarea><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>CSS Questions</legend>
+            <label for="q3">3. Which of the following is a CSS layout?</label>
+            <select id="q3" name="q3">
+                <option value="image">Image</option>
+                <option value="position">Position</option>
+                <option value="margin">Margin</option>
+                <option value="grid">Grid</option>
+            </select><br><br>
+            <label for="q4">5. How many id selectors can be used per page?</label><br>
+            <input type="number" id="q4" name="q4">
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+<footer>
+    <p>&copy;2025 | Tusiime Jesse | Quiz</p>
+</footer>
+</body>
+</html>
