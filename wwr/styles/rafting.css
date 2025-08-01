@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #3E92CC; /* celestial blue */
+    --primary-color: #2A6EA1; /* celestial blue */
     --secondary-color: #313638; /* onxy */
     --accent1-color: #A44200; /* brown */
     --accent2-color: #FFFFFF; /* white */
@@ -52,7 +52,7 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-nav, p, section, article, {
+nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
@@ -156,6 +156,7 @@ article {
     width: 100%;
     height: auto;
     border: 1px solid var(--secondary-color);
+    border-radius: 0.5rem;
 }
 
 .adventure-layout figcaption {
@@ -163,6 +164,10 @@ article {
     font-size: 0.9rem;
     color: var(--secondary-color);
     text-align: center;
+}
+
+.contact-title {
+    padding: 1rem;
 }
 
 .contacts p {
@@ -270,8 +275,8 @@ input[type="checkbox"] {
 
 button {
     margin: 1rem auto 0;
-    background-color: #3E92CC;
-    color: #fff;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem 1.5rem;
@@ -281,7 +286,8 @@ button {
 }
 
 button:hover {
-    background-color: #49769a;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
 }
 
 footer {
