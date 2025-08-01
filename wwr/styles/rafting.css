@@ -1,7 +1,7 @@
 :root {
     --primary-color: #2A6EA1; /* celestial blue */
     --secondary-color: #313638; /* onxy */
-    --accent1-color: #A44200; /* brown */
+    --accent1-color: #6c2b00; /* brown */
     --accent2-color: #FFFFFF; /* white */
     --heading-font: "montserrat", sans-serif;
     --body-font: "roboto", sans-serif;
@@ -166,8 +166,16 @@ article {
     text-align: center;
 }
 
+.contact-head {
+    text-align: left;
+    padding-left: 10rem;
+    margin-top: 6rem;
+    font-weight: bold;
+}
+
 .contact-title {
     padding: 1rem;
+    margin-top: 4rem;
 }
 
 .contacts p {
@@ -217,7 +225,6 @@ fieldset {
 
 legend {
     padding: 0.5rem;
-    font-size: 1.3em;
     color: var(--primary-color);
     font-weight: 600;
     font-size: 1.2rem;
