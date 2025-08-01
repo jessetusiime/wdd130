@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us-White Water Rafting</title>
+    <meta name="description" content="Ask questions about our rafting company and its services">
+    <meta name="author" content="Tusiime Jesse">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Rafting Company Logo">
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+        <address class="contacts">
+            <p>Address: Optimal Road, Garuga, Entebbe</p>
+            <p>Phone: +256 789656564</p>
+            <p>Email: whitewaterrafting@gmail.com</p>
+        </address>
+        <section>
+            <h3>Locate Us on the map</h3>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63836.39114568079!2d32.545177599999995!3d0.26869760000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sug!4v1753947809701!5m2!1sen!2sug"
+                    width="600" height="450" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+        <section>
+            <h2>Our Team</h2>
+            <div class="adventure-layout team-layout">
+                <figure>
+                    <img src="images/team1.webp" alt="main rocky rafting guides">
+                    <figcaption>Rocky rafting Guides</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team2.webp" alt="down river rafting guides">
+                    <figcaption>River Rafting Guides</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/team3.webp" alt="forest river rafting guides">
+                    <figcaption>Forest Rafting Guides</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section>
+            <h2 class="form-title">Contact Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <div class="form-item column2">
+                        <label for="name">Enter your username:</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+                    <div class="form-item column2">
+                        <label for="usermail">Enter your email:</label>
+                        <input type="email" id="usermail" name="email" required />
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Message Details</legend>
+                        <label>What is the purpose of your message?</label>
+                            <div class="form-item column1">
+                                <label for="purpose1">General Inquiry</label>
+                                <input type="radio" id="purpose1" name="purpose" value="general-inquiry">
+                            </div>
+                            <div class="form-item column1">
+                                <label for="purpose2">Reservation Question</label>
+                                <input type="radio" id="purpose2" name="purpose" value="reservation-question">
+                            </div>
+                            <div class="form-item column1">
+                                <label for="purpose3">Website Suggestion</label>
+                                <input type="radio" id="purpose3" name="purpose" value="website-suggestion">
+                            </div>
+                            <div class="form-item column1">
+                                <label for="message">Your message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                </fieldset>
+                <fieldset>
+                    <legend>For great offers</legend>
+                    <div class="form-item newsletter">
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label class="sub" for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                </fieldset>
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2025 | White Water Rafting | Tusiime Jesse</p>
+        <a href="https://app.moqups.com/yN2puev0GyKJv19znSsfXqQUvFcxibF7/view/page/ad64222d5">Wireframe</a>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Logo">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Logo">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter Logo">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

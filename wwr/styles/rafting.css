@@ -28,11 +28,13 @@ header {
 body {
     font-family: var(--body-font);
     color: var(--secondary-color);
+    background-color: #ebeff1;
 }
 
 header, main, footer {
     width: 840px;
     margin: 0 auto;
+    background-color: #ebeff1;
 }
 
 main {
@@ -50,7 +52,7 @@ h1, h2 {
     color: var(--primary-color);
 }
 
-nav, p, section, article {
+nav, p, section, article, {
     margin: 16px;
     padding: 8px;
 }
@@ -161,6 +163,125 @@ article {
     font-size: 0.9rem;
     color: var(--secondary-color);
     text-align: center;
+}
+
+.contacts p {
+    line-height: 1.8;
+}
+
+h3 {
+    text-align: center;
+}
+
+.map {
+    padding: 1rem;
+}
+
+iframe {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.form-title {
+    text-align: center;
+    padding: 1.2rem;
+    margin-top: 1rem;
+}
+
+form {
+    display: grid;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.75rem;
+    margin: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+}
+
+legend {
+    padding: 0.5rem;
+    font-size: 1.3em;
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+label, input, button, select, textarea {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+label {
+    padding-right: 1rem;
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+}
+
+textarea {
+    width: 300px;
+    height: 100px ;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem auto 0;
+    background-color: #3E92CC;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    display: block;
+}
+
+button:hover {
+    background-color: #49769a;
 }
 
 footer {
