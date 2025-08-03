@@ -168,9 +168,11 @@ article {
 
 .contact-head {
     text-align: left;
-    padding-left: 10rem;
+    padding-left: 6rem;
     margin-top: 6rem;
     font-weight: bold;
+    max-width: 840px;
+    height: auto;
 }
 
 .contact-title {
