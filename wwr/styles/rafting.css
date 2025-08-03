@@ -41,6 +41,11 @@ main {
     padding-top: 1rem;
 }
 
+.logo {
+    border: 2px solid var(--primary-color);
+    border-radius: 0.2rem;
+}
+
 .logo img {
     width: 100px;
     height: auto;
