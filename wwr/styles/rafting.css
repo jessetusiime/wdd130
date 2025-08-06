@@ -52,7 +52,7 @@ main {
     max-width: 100%;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -191,6 +191,7 @@ article {
 
 h3 {
     text-align: center;
+    color: #045a9b;
 }
 
 .map {
@@ -318,3 +319,100 @@ footer {
     width: 24px;
     height: 24px;
 }
+
+.cta-button {
+    position: absolute;
+    bottom: 5.5rem;
+    left: 21rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    padding: 0.9rem;
+    border-radius: 0.5rem;
+}
+
+.cta-button:hover {
+    background-color: var(--accent1-color);
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 1rem;
+}
+
+.offering img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.trips {
+    display: grid;
+    margin: 2rem 0;
+    gap: 2rem;
+}
+
+.trip {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 1.5rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 0.4rem;
+    background-color: #e2dddd;
+    padding: 1.5rem;
+}
+
+.trip img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+.trip-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    max-width: 840px;
+    width: 100%;
+    margin: 2rem auto;
+    border: 2px solid var(--secondary-color);
+    border-collapse: collapse;
+    border-spacing: 0;
+    font:
+     1rem "Open sans",
+     Roboto,
+     sans-serif;
+}
+
+.table-title {
+    text-align: center;
+}
+
+thead > tr {
+    background-color: #cde4f5;
+}
+
+table caption {
+    caption-side: bottom;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    color: var(--accent1-color);
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 1rem;
+    border: 1px solid var(--secondary-color);
+}
+
+
