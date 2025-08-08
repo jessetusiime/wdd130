@@ -386,10 +386,7 @@ table {
     border: 2px solid var(--secondary-color);
     border-collapse: collapse;
     border-spacing: 0;
-    font:
-     1rem "Open sans",
-     Roboto,
-     sans-serif;
+    font: 1rem "Open sans", Roboto, sans-serif;
 }
 
 .table-title {
