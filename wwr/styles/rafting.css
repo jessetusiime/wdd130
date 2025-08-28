@@ -171,18 +171,23 @@ article {
     text-align: center;
 }
 
+.contact-banner {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 1rem;
+    color: var(--accent1-color);
+}
+
 .contact-head {
-    text-align: left;
-    padding-left: 6rem;
-    margin-top: 6rem;
-    font-weight: bold;
-    max-width: 840px;
-    height: auto;
+    margin: 0;
+    font-size: 1.5rem;
+    position: relative;
+    color: var(--accent2-color);
 }
 
 .contact-title {
     padding: 1rem;
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 .contacts p {
